@@ -5,4 +5,4 @@ deployment:
   prod:
     branch: master
     commands:
-        - aws s3 sync home/daniel/git-repos/S3ContinuousDeploy s3://s3lab7 --delete
+        - aws s3 sync /home/daniel/git-repos/S3ContinuousDeploy s3://s3lab7 --delete
